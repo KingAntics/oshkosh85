@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="utf-8">
+<title>OshKosh85 - Coming Soon!!!</title>
+<meta name="description" content="Trendset Page under construction">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold"> 
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script src="https://kit.fontawesome.com/d626e7f91f.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="home">
+<div id="Header">
+<div class="wrapper">
+	<h1>OshKosh85</h1>	
+	</div>
+</div>
+<div id="Content" class="wrapper"> 
+<div class="countdown styled"></div> 
+<h2 class="intro">⬇⬇⬇ Insert password below to get an EARLY look at the website! ⬇⬇⬇</h2>
+<div id="password"> 
+	<form action="" method="post" onsubmit="">
+		<label for="pswd">Enter your password: </label>
+		<input type="password" id="pswd">
+		<input type="button" value="Submit" onclick="checkPswd();" />
+	</form>
+	<script type="text/javascript">
+		function checkPswd() {
+			var confirmPassword = "ella";
+			var password = document.getElementById("pswd").value;
+			if (password == confirmPassword) {
+				 window.location="oshkosh-website-still-in-development";
+			}
+			else{
+				alert("Passwords do not match.");
+			}
+		}
+	</script>
+	<div id="socialIcons">
+		<ul> 
+			<li><a href="https://twitter.com/oshkosh85" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+			<li><a href="https://www.twitch.tv/oshkosh85" target="_blank" title="Twitch" class="fa-brands fa-twitch"></a></li>
+			<li><a href="https://www.instagram.com/oshkosh85/" target="_blank" title="Instagram" class="fa-brands fa-instagram"></a></li>
+			<li><a href="https://www.tiktok.com/@oshkosh85" target="_blank" title="TikTok" class="fa-brands fa-tiktok"></a></li>
+		</ul>
+	</div>
+</div>
+<span class="tempBy"><a href="kingantics.com" target="_blank"></a></span>
+</div>
+
+<div id="overlay"></div>
+
+<!--Scripts-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/Backstretch.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+
+</body>
+</html>
