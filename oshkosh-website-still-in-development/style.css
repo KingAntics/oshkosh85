@@ -1,8 +1,4 @@
 /*
-name:Cryptian, Bitcoin and Cryptocurrency HTML5 Landing Page;
-author:uivision;
-version:1.0.0;
-
 css list:
 ===========================
 1:base css
@@ -67,6 +63,28 @@ body{
   overflow-x: hidden;
 
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #031B69;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #031B69;
+    border-radius: 10px;
+    border: 3px solid transparent;
+  }
 
 h1,
 h2,
