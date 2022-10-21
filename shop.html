@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oshkosh85 | Shop</title>
+    <link rel="stylesheet" href="style1.css">
+    <script type="text/javascript">
+        function CheckColors(val){
+         var element=document.getElementById('color');
+         if(val=='pick a color'||val=='other')
+           element.style.display='block';
+         else  
+           element.style.display='none';
+        }
+        
+        </script> 
+</head>
+<body>
+    <div class="logo-area">
+        <a href="#"><img src="assets/img/logo-top.png" alt=""></a>
+    </div>
+    <center><h1>OshKosh85 Shop</h1></center>
+    <br>
+    <div class="container">
+        <div class="card">
+          <div class="front">
+            <img src="assets/img/hoodie1.jpg" />
+          </div>
+          <div class="back">
+            <h3>Made</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container1">
+        <div class="card">
+          <div class="front">
+            <img src="assets/img/hoodie2.jpg" />
+          </div>
+          <div class="back">
+            <h3>With</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="card">
+          <div class="front">
+            <img src="assets/img/hoodie3.jpg" />
+          </div>
+          <div class="back">
+            <h3>Love</h3>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <center><h1>⬇ Fill Out The Form If You Want A Hoodie ⬇</h1></center>
+      <div class="container5">
+        <form action="https://formsubmit.co/oshkosh85ttv@gmail.com" method="post">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="contact">Email Address</label>
+          <input type="text" id="email" name="email" placeholder="Your email address..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="color" onchange='CheckColors(this.value);'>
+            <option value="usa">United States of America</option>
+            <option value="canada">Canada</option>
+            <option value="mexico">Mexico</option>
+            <option value="uk">United Kingdom</option>
+            <option value="brazil">Brazil</option>
+            <option value="australia">Australia</option>
+            <option value="other">Other (Type your Size in the Box Below When Selected)</option>
+          </select>
+          <input type="text" name="color" id="color" style='display:none;'/>
+
+          <label for="country">Size</label>
+          <select id="country">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="x-large">X-Large</option>
+            <option value="2x-large">2X-Large</option>
+            <option value="3x-large">3X-Large</option>
+            <option value="other">Other</option>
+          </select>
+      
+          <label for="subject">List Any Other Ways I Can Get In Contact With You</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>
