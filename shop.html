@@ -2,114 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oshkosh85 | Shop</title>
+    <title>OshKosh85 | Shop</title>
     <link rel="stylesheet" href="style1.css">
-    <script type="text/javascript">
-        function CheckColors(val){
-         var element=document.getElementById('color');
-         if(val=='pick a color'||val=='other')
-           element.style.display='block';
-         else  
-           element.style.display='none';
-        }
-        
-        </script> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="logo-area">
-        <a href="#"><img src="assets/img/logo-top.png" alt=""></a>
-    </div>
-    <center><h1>OshKosh85 Shop</h1></center>
-    <br>
+
+    <div class="header">
     <div class="container">
-        <div class="card">
-          <div class="front">
-            <img src="assets/img/hoodie1.jpg" />
-          </div>
-          <div class="back">
-            <h3>Made</h3>
-          </div>
+        <div class="navbar">
+            <div class="logo">
+                <img src="assets/img/logo-top.png" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://oshkosh85.com/" target="_blank">Click Here To Go Back To The Original Site</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
-      <div class="container1">
-        <div class="card">
-          <div class="front">
-            <img src="assets/img/hoodie2.jpg" />
-          </div>
-          <div class="back">
-            <h3>With</h3>
-          </div>
-        </div>
-      </div>
-      <div class="container2">
-        <div class="card">
-          <div class="front">
-            <img src="assets/img/hoodie3.jpg" />
-          </div>
-          <div class="back">
-            <h3>Love</h3>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <center><h1>⬇ Fill Out The Form If You Want A Hoodie ⬇</h1></center>
-      <div class="container5">
-        <form action="https://formsubmit.co/oshkosh85ttv@gmail.com" method="post">
-          <label for="fname">Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+</div>
 
-          <label for="contact">Email Address</label>
-          <input type="text" id="email" name="email" placeholder="Your email address..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="color" onchange='CheckColors(this.value);'>
-            <option value="usa">United States of America</option>
-            <option value="canada">Canada</option>
-            <option value="mexico">Mexico</option>
-            <option value="uk">United Kingdom</option>
-            <option value="brazil">Brazil</option>
-            <option value="australia">Australia</option>
-            <option value="other">Other (Type your Size in the Box Below When Selected)</option>
-          </select>
-          <input type="text" name="color" id="color" style='display:none;'/>
 
-          <label for="country">Size</label>
-          <select id="country">
+<!--------- single product details ------------>
+
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="assets/img/hoodie1.jpg" width="100%" id="ProductImg">
+
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="assets/img/hoodie1.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="assets/img/hoodie2.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="assets/img/hoodie3.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="assets/img/hoodiesizechart.jpg" width="100%" class="small-img">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <h1>Oshkosh85 <br> Hoodie</h1>
+                    <h4>Price will be determined <br> when I am in contact with you</h4>
+                    <h3>Product Details</h3>
+                    <p>Oshkoh85 Comfortable Hoodie with Cute Emotes</p>
+                    <button class="btn" onclick="openForm()"><strong>Open Form</strong></button>
+                </div>
+            </div>
+        </div>
+</div>
+    <!------- footer ------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Merch</h3>
+                    <p>This is a cool hoodie that I made for people <br> to enjoy and represent the community</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="assets/img/logo-top.png">
+                    <p>Streamer - Dad - Husband - Friend</p>
+                </div>
+                <div class="footer-col-3">
+                  <h3></h3>
+                  <ul>
+                      <li></li>
+                  </ul>
+              </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://www.twitch.tv/oshkosh85" target="_blank">Twitch</a></li>
+                        <li><a href="https://twitter.com/oshkosh85" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.youtube.com/channel/UC_G08PPMl77U_xqXjTq7VWA" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.instagram.com/oshkosh85/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - OshKosh85</p>
+        </div>
+    </div>
+    <div class="loginPopup">
+      <div class="formPopup" id="popupForm">
+        <form id="contact" action="https://formsubmit.co/business@kingantics.com" method="post" class="formContainer">
+          <fieldset>
+          <div class="contact-info-content">
+            <label for="contactName">Name:</label>
+          <div class="contect-info-content-line">
+              <div class="contact-info-icon-text">
+                  <input name="Name" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+            </div>
+          </div>
+          <label for="contactEmail">Email Address:</label>
+          <div class="contect-info-content-line">
+            <div class="contact-info-icon-text">
+                  <input name="Email Address" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+          </div>
+        </div>
+
+        <br>
+        <label for="country">Country</label>
+        <div class="contect-info-content-line">
+          <div class="contact-info-icon-text">
+            <select id="country" name="Country">
+              <option value="selectyourregion">Select Your Region</option>
+              <option value="usa">United States of America</option>
+              <option value="canada">Canada</option>
+              <option value="mexico">Mexico</option>
+              <option value="uk">United Kingdom</option>
+              <option value="brazil">Brazil</option>
+              <option value="australia">Australia</option>
+              <option value="other">Other</option>
+            </select>
+        </div>
+      </div>
+
+      <br>
+      <label for="size">Size</label>
+      <div class="contect-info-content-line">
+        <div class="contact-info-icon-text">
+          <select id="size" name="Hoodie Size">
+            <option value="selectyoursize">Select Your Size</option>
             <option value="small">Small</option>
             <option value="medium">Medium</option>
             <option value="large">Large</option>
@@ -118,12 +140,66 @@
             <option value="3x-large">3X-Large</option>
             <option value="other">Other</option>
           </select>
-      
-          <label for="subject">List Any Other Ways I Can Get In Contact With You</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-        </form>
       </div>
+    </div>
+
+    <br>
+    <label for="subject">List Any Other Ways I Can Get In Contact With You</label>
+        <div class="contect-info-content-line">
+            <div class="contact-info-icon-text">
+                  <textarea name="contactMessage" id="contactMessage" placeholder="Make a List..." rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+          </div>
+        </div>
+        <div class="contect-info-content-line">
+          <div class="contact-info-icon-text">
+              <button class="btn">Submit</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </div>
+        </div>
+          </div>
+      <!--Contact information end-->
+     </div>
+  </div>
+  </div>
+</fieldset>
+</form>
+      </div>
+    </div>
+    <script>
+      function openForm() {
+        document.getElementById("popupForm").style.display = "block";
+      }
+      function closeForm() {
+        document.getElementById("popupForm").style.display = "none";
+      }
+    </script>
+
+
+<!------js for product gallery ------->
+
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function()
+            {
+                ProductImg.src = SmallImg[0].src;
+            }
+        SmallImg[1].onclick = function()
+            {
+                ProductImg.src = SmallImg[1].src;
+            }
+        SmallImg[2].onclick = function()
+            {
+                ProductImg.src = SmallImg[2].src;
+            }
+        SmallImg[3].onclick = function()
+            {
+                ProductImg.src = SmallImg[3].src;
+            }
+
+    </script>
+
+
 </body>
 </html>
